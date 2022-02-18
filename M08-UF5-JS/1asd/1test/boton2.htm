@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <html lang="ca">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Boton2</title>
+        </head>
+        <body>
+            <p id="r1" style="display:none">Le diste a Si</p>
+            <p id="r2" style="display:none">Le diste a No</p>
+            <button type="button" onclick="mostrar()">Si</button>
+            <button type="button" onclick="mostrar1()">No</button>
+            <button type="button" onclick = "borrar()">Borrar</button>
+        <script>
+            function mostrar() {
+                document.getElementById('r1').style.display='block';
+            }
+            function mostrar1() {
+                document.getElementById('r2').style.display='block';
+            }
+            function borrar() {
+                document.getElementById('r1').style.display = 'none';
+                document.getElementById('r2').style.display = 'none';
+            }
+        </script>
+        </body>
+    </html>

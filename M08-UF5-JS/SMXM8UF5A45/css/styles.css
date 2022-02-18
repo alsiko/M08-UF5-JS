@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    border-radius: 3%;
+    margin-top: 3cm;
+    padding: 1cm;
+    background-color: blue;
+    border: solid 3px lavender;
+}
+form  div {
+    margin-bottom: 2%;
+}
+form input {
+    border-radius: 10px;
+    width: 45%;
+}
+.boton {
+    background-color: lavender;
+    width: auto;
+}

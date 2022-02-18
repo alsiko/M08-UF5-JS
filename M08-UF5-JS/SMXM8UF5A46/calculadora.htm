@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <html lang="ca">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="css/styles.css" rel="stylesheet" type="text/css">
+            <script type="text/javascript" src="js/calculadora.js"></script>
+            <title>calculadora</title>
+        </head>
+        <body>
+            <form action="" method="GET">
+                <div id="general">
+                    <div>
+                        <img id="casio" src="img/casio.png" alt="">
+                    </div>
+                    <div>
+                        <p id="panel"></p>
+                    </div>
+                    <div id="cd">
+                        <input onclick="clear()" id="C" class="boton" type="button" value="C">
+                    </div>
+                    <div>
+                        <div>
+                            <input onclick="numero('7')" id="b1" class="boton" type="button" value="7">
+                            <input onclick="numero('6')" id="b2" class="boton" type="button" value="8">
+                            <input onclick="numero('5')" id="b3" class="boton" type="button" value="9">
+                            <input onclick="numero('/')" id="b4" class="boton" type="button" value="/">
+                        </div>
+                        <div>
+                            <input onclick="numero('4')" id="b5" class="boton" type="button" value="4">
+                            <input onclick="numero('5')" id="b6" class="boton" type="button" value="5">
+                            <input onclick="numero('6')" id="b7" class="boton" type="button" value="6">
+                            <input onclick="numero('x')" id="b8" class="boton" type="button" value="x">
+                        </div>
+                        <div>
+                            <input onclick="numero('1')" id="b9" class="boton" type="button" value="1">
+                            <input onclick="numero('2')" id="b10" class="boton" type="button" value="2">
+                            <input onclick="numero('3')" id="b11" class="boton" type="button" value="3">
+                            <input onclick="numero('-')" id="b12" class="boton" type="button" value="-">
+                        </div>
+                        <div>
+                            <input onclick="numero('0')" id="b13" class="boton" type="button" value="0">
+                            <input onclick="numero(',')" id="b14" class="boton" type="button" value=",">
+                            <input onclick="calcular()" id="b15" class="boton" type="button" value="=">
+                            <input onclick="numero('+')" id="b16" class="boton" type="button" value="+">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </body>
+    </html>

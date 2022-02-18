@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../img/EXbl8Y0WAAAaUJN.jpeg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+#todo {
+    padding: 20px;
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    font-size: 20px;
+}
+.cuadro {
+    width: 200px;
+}
+.boton {
+    width: 100px;
+}

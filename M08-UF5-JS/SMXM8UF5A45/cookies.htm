@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html lang="ca">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="css/styles.css" rel="stylesheet" type="text/css">
+            <script type="text/javascript" src="js/cookies.js"></script>
+            <title>cookies</title>
+        </head>
+        <body>
+            <form action="" method="GET">
+                <div>
+                    <label for="usr">Nom:</label>
+                    <input type="text" id="usr" name="usr" maxlength="25">
+                </div>
+                <div>
+                    <label for="passw">Contrasenya:</label>
+                    <input type="password" id="passw" name="passw" maxlength="50">
+                </div>
+                <div>
+                    <label for="passwr">Repeteix la contrasenya:</label>
+                    <input type="password" id="passwr" name="passwr" maxlength="50"><br>
+                </div>
+                <div>
+                    <input class="boton" type="button" value="Comprovar" onclick="comprovar()">
+                </div>
+                <div>
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom" maxlength="50">
+                </div>
+                <div>
+                    <label for="cnom">Cognom:</label>
+                    <input type="text" id="cnom" name="cnom" maxlength="50">
+                </div>
+                <div>
+                    <input class="boton" type="button" value="Guardar dades" onclick="guardar()">
+                </div>
+                <div>
+                    <input class="boton" type="button" value="Recuperar dades" onclick="recuperar()">
+                </div>
+                <div>
+                    <input class="boton" type="button" value="Esborrar dades" onclick="borrar()">
+                </div>
+            </form>
+        </body>
+    </html>
